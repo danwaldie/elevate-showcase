@@ -1,0 +1,182 @@
+.screen {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  flex: none;
+  padding: max(8px, env(safe-area-inset-top)) 22px 14px;
+}
+.title {
+  font-family: var(--display);
+  font-size: 34px;
+  line-height: 1;
+  margin: 4px 0 0;
+}
+
+.messages {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 6px 22px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.group {
+  display: contents;
+}
+
+.userBubble {
+  align-self: flex-end;
+  max-width: 80%;
+  background: var(--solid);
+  color: var(--solid-ink);
+  border-radius: var(--radius) var(--radius) 4px var(--radius);
+  padding: 11px 14px;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.botBubble {
+  align-self: flex-start;
+  max-width: 88%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: #2c2c25;
+  border-radius: var(--radius) var(--radius) var(--radius) 4px;
+  padding: 12px 14px;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.cards {
+  align-self: flex-start;
+  max-width: 88%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  text-align: left;
+  background: var(--raise);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 10px 11px;
+}
+.cardBody {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.cardName {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+.cardLine {
+  font-size: 10.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardReason {
+  font-size: 10.5px;
+  color: var(--green-ink);
+  font-weight: 500;
+}
+.cardChev {
+  color: var(--faint);
+  font-size: 17px;
+}
+
+.typing {
+  align-self: flex-start;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 13px 16px;
+  display: flex;
+  gap: 5px;
+}
+.typing span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: dotp 1.2s infinite;
+}
+.typing span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.typing span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.inputBar {
+  flex: none;
+  padding: 10px 22px 16px;
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+.suggestions {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 11px;
+  padding-bottom: 2px;
+}
+.suggestion {
+  flex: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  padding: 8px 13px;
+  font-size: 11.5px;
+  color: #3d3d34;
+  white-space: nowrap;
+}
+.inputRow {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.input {
+  flex: 1;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  padding: 13px 16px;
+  font-size: 13.5px;
+  color: var(--ink);
+}
+.sendBtn {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+  color: var(--accent-ink);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .screen {
+    max-width: 780px;
+    margin-inline: auto;
+    width: 100%;
+  }
+  .header {
+    padding-top: 32px;
+  }
+}

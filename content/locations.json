@@ -1,0 +1,16 @@
+{
+  "parking": { "label": "Parking", "x": 25, "y": 16 },
+  "studio-gym": { "label": "Studio Loft / Gym", "x": 12, "y": 35 },
+  "cabin": { "label": "The Cabin", "x": 40, "y": 31 },
+  "sport-courts": { "label": "Sport Courts", "x": 61, "y": 31 },
+  "club-house": { "label": "Club House", "x": 64, "y": 43 },
+  "north-cottage": { "label": "North Cottage", "x": 14, "y": 54 },
+  "lodge": { "label": "The Lodge", "x": 39, "y": 53 },
+  "lakeside-cottage": { "label": "Lakeside Cottage", "x": 66, "y": 54 },
+  "pine-cottage": { "label": "Pine Cottage", "x": 87, "y": 54 },
+  "log-cabin": { "label": "Log Cabin", "x": 88, "y": 41 },
+  "north-boathouse": { "label": "North Boathouse", "x": 14, "y": 73 },
+  "main-boathouse": { "label": "Main Boathouse", "x": 39, "y": 73 },
+  "lakeside-boathouse": { "label": "Lakeside Boathouse", "x": 66, "y": 73 },
+  "pine-boathouse": { "label": "Pine Boathouse", "x": 87, "y": 73 }
+}

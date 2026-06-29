@@ -1,0 +1,23 @@
+{
+  "forum": [
+    { "label": "Group A", "venue": "The Lodge", "locKey": "lodge", "memberIds": ["prospero", "elizabeth-bennet", "sherlock-holmes"] },
+    { "label": "Group B", "venue": "North Cottage", "locKey": "north-cottage", "memberIds": ["jay-gatsby", "edmond-dantes", "becky-sharp", "phileas-fogg", "mina-harker"] },
+    { "label": "Group C", "venue": "Lakeside Cottage", "locKey": "lakeside-cottage", "memberIds": ["jane-eyre", "dorothea-brooke", "ebenezer-scrooge"] },
+    { "label": "Group D", "venue": "Pine Cottage", "locKey": "pine-cottage", "memberIds": ["captain-nemo", "heathcliff", "allan-quatermain", "natasha-rostova"] }
+  ],
+  "dinners": [
+    { "label": "Becky Sharp × Edmond Dantès", "venue": "Private dinner", "locKey": "", "memberIds": [] },
+    { "label": "Natasha Rostova × Jay Gatsby", "venue": "Private dinner", "locKey": "", "memberIds": [] },
+    { "label": "Longevity, with Mina Harker", "venue": "Private dinner", "locKey": "", "memberIds": [] }
+  ],
+  "workshops": [
+    { "label": "Life Planning — Dorothea Brooke", "venue": "Location TBC", "locKey": "", "memberIds": [] },
+    { "label": "Claude 101 — Sherlock Holmes", "venue": "Location TBC", "locKey": "", "memberIds": [] },
+    { "label": "Sales Excellence — Becky Sharp", "venue": "Location TBC", "locKey": "", "memberIds": [] }
+  ],
+  "experiences": [
+    { "label": "Boat Rides", "venue": "Main Boathouse", "locKey": "main-boathouse", "memberIds": [] },
+    { "label": "Padel", "venue": "Sport Courts", "locKey": "sport-courts", "memberIds": [] },
+    { "label": "Volleyball", "venue": "Sport Courts", "locKey": "sport-courts", "memberIds": [] }
+  ]
+}

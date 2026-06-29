@@ -1,0 +1,36 @@
+.av {
+  flex: none;
+  border-radius: var(--av-r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  overflow: hidden;
+}
+.default {
+  background: var(--av-bg);
+  color: var(--av-ink);
+  border: 1px solid var(--av-line);
+}
+.green {
+  background: var(--card);
+  color: var(--green-ink);
+  border: 1px solid var(--green-line);
+}
+.plain {
+  background: var(--card);
+  color: var(--av-ink);
+  border: 1px solid var(--av-line);
+}
+.ring {
+  border: 2px solid var(--card);
+  box-shadow: 0 0 0 1px var(--av-line);
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.init {
+  line-height: 1;
+}

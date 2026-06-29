@@ -1,0 +1,72 @@
+/* boot / loading / auth states */
+.boot {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+  padding: 40px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+.loader {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  border-top-color: var(--accent);
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---- Desktop layout (>=900px): sidebar + master-detail ---- */
+.desktop {
+  display: flex;
+  min-height: 100dvh;
+  background: var(--paper);
+}
+.mainCol {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+}
+.listPane {
+  flex: 1;
+  min-width: 0;
+  height: 100dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.detailPane {
+  width: min(460px, 42vw);
+  flex: none;
+  height: 100dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-left: 1px solid var(--line);
+  background: var(--paper);
+}
+
+/* ---- Mobile layout (<900px): full screen + bottom nav ---- */
+.app {
+  width: 100%;
+  height: 100dvh;
+  background: var(--paper);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

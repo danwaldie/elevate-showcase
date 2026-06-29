@@ -1,0 +1,11 @@
+.pile {
+  display: flex;
+}
+.item {
+  display: inline-flex;
+  border-radius: var(--av-r);
+  box-shadow: 0 0 0 2px var(--card);
+}
+.item + .item {
+  margin-left: -7px;
+}

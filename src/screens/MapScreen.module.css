@@ -1,0 +1,156 @@
+.screen {
+  padding: max(6px, env(safe-area-inset-top)) 0 120px;
+}
+.head {
+  padding: 12px 22px 0;
+}
+.title {
+  font-family: var(--display);
+  font-size: 38px;
+  line-height: 1;
+  margin: 4px 0 0;
+}
+.sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 7px;
+}
+.mapWrap {
+  margin: 16px 22px 0;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 11px 22px 0;
+  flex-wrap: wrap;
+}
+.legItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: var(--muted);
+}
+.lg {
+  border-radius: 50%;
+  flex: none;
+}
+.lgMine {
+  width: 13px;
+  height: 13px;
+  background: var(--accent);
+  border: 2px solid var(--card);
+  box-shadow: 0 0 0 2.5px var(--gold-soft);
+}
+.lgVenue {
+  width: 11px;
+  height: 11px;
+  background: var(--card);
+  border: 2.5px solid var(--accent);
+}
+.lgBuilding {
+  width: 6px;
+  height: 6px;
+  background: var(--faint);
+}
+
+.hint {
+  margin: 14px 22px 0;
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--faint);
+  text-align: center;
+}
+
+.card {
+  margin: 16px 22px 0;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 15px;
+}
+.cardHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.cardTitle {
+  font-family: var(--display);
+  font-size: 22px;
+  line-height: 1;
+}
+.cardMine {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--green-ink);
+  margin-top: 6px;
+}
+.close {
+  background: none;
+  border: none;
+  color: var(--faint);
+  font-size: 18px;
+  line-height: 1;
+  padding: 2px;
+}
+.sessions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sessRow {
+  width: 100%;
+  text-align: left;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 11px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sessCol {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.sessTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.sessTitle {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+.sessSub {
+  font-size: 11px;
+  color: var(--muted);
+}
+.chev {
+  color: var(--faint);
+  font-size: 17px;
+  flex: none;
+}
+.none {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+@media (min-width: 900px) {
+  .screen {
+    max-width: 760px;
+    margin-inline: auto;
+    width: 100%;
+    padding: 36px 0 56px;
+  }
+}

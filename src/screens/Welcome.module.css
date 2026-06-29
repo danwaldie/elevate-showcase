@@ -1,0 +1,121 @@
+.screen {
+  min-height: 100dvh;
+  background: var(--wbg);
+  color: var(--wtext);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: max(34px, env(safe-area-inset-top)) 32px max(40px, env(safe-area-inset-bottom));
+}
+.top {
+  opacity: 0.95;
+}
+
+.title {
+  font-family: var(--display);
+  font-size: 74px;
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+  color: var(--wtext);
+  margin: 0;
+  font-weight: 600;
+}
+.date {
+  margin-top: 14px;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--woverline);
+}
+.rule {
+  width: 38px;
+  height: 1px;
+  background: var(--waccent);
+  margin: 26px 0;
+}
+.tagline {
+  font-family: var(--display);
+  font-size: 21px;
+  line-height: 1.45;
+  color: var(--wtagline);
+  font-style: italic;
+  max-width: 280px;
+  margin: 0;
+}
+
+.signedIn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 14px;
+  border: 1px solid var(--wcard-line);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+}
+.avatar {
+  width: 42px;
+  height: 42px;
+  flex: none;
+  border-radius: var(--av-r);
+  background: var(--wav-bg);
+  border: 1px solid var(--wcard-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--wtext);
+}
+.signedInText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.signedInLabel {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--wmuted);
+}
+.signedInName {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--wtext);
+}
+.enter {
+  width: 100%;
+  background: var(--waccent);
+  color: var(--wbtn-ink);
+  border: none;
+  border-radius: var(--radius);
+  padding: 17px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.disclaimer {
+  margin: 16px 0 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--wmuted);
+  max-width: 340px;
+}
+
+@media (min-width: 900px) {
+  .screen {
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding: 64px 32px;
+  }
+  .top,
+  .middle,
+  .bottom {
+    width: 100%;
+    max-width: 460px;
+  }
+  .title {
+    font-size: 88px;
+  }
+}

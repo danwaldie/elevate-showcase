@@ -1,0 +1,13 @@
+[
+  { "id": "forum-cert", "day": "tue", "start": "1:00 PM", "end": "5:30 PM", "title": "Forum Certification", "type": "plenary", "location": "The Lodge", "locKey": "lodge", "desc": "Get certified in the Elevate Forum method, led by Prospero & Jane Eyre." },
+  { "id": "welcome-social", "day": "tue", "start": "6:00 PM", "end": "11:00 PM", "title": "Welcome Social", "type": "plenary", "location": "The Lodge", "locKey": "lodge", "desc": "The whole group comes together to open the retreat at the main lodge." },
+  { "id": "forum-am", "day": "wed", "start": "9:00 AM", "end": "12:30 PM", "title": "Forum", "type": "breakout", "desc": "The heart of Elevate. In small, confidential groups, members put real challenges and opportunities on the table.", "groupsRef": "forum" },
+  { "id": "lunch-wed", "day": "wed", "start": "12:30 PM", "end": "1:30 PM", "title": "Lunch", "type": "meal", "location": "The Lodge", "locKey": "lodge" },
+  { "id": "forum-pm", "day": "wed", "start": "1:30 PM", "end": "4:00 PM", "title": "Forum, continued", "type": "breakout", "desc": "A second working session with your Forum group.", "groupsRef": "forum" },
+  { "id": "pre-dinner-drinks", "day": "wed", "start": "6:00 PM", "end": "7:00 PM", "title": "Pre-Dinner Drinks", "type": "plenary", "location": "The Lodge", "locKey": "lodge", "desc": "Gather for drinks before the private dinners." },
+  { "id": "private-dinners", "day": "wed", "start": "7:00 PM", "end": "11:00 PM", "title": "Private Dinners", "type": "breakout", "groupsTitle": "The dinners", "groupsRef": "dinners", "desc": "Three concurrent private dinners, each a curated conversation." },
+  { "id": "workshops", "day": "thu", "start": "9:00 AM", "end": "12:30 PM", "title": "Workshops", "type": "experience", "groupsTitle": "The workshops", "groupsRef": "workshops", "desc": "Choose one of three concurrent workshops." },
+  { "id": "lunch-thu", "day": "thu", "start": "12:30 PM", "end": "2:00 PM", "title": "Lunch", "type": "meal", "location": "The Lodge", "locKey": "lodge" },
+  { "id": "experiences", "day": "thu", "start": "2:00 PM", "end": "4:30 PM", "title": "Experiences", "type": "experience", "groupsTitle": "The experiences", "groupsRef": "experiences", "desc": "Get out on the water and around the property — boat rides, padel, and volleyball." },
+  { "id": "closing-party", "day": "thu", "start": "6:00 PM", "end": "11:00 PM", "title": "Closing Party", "type": "plenary", "location": "The dock", "locKey": "main-boathouse", "desc": "A classic dock party with a campfire to close out the retreat." }
+]

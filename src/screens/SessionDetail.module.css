@@ -1,0 +1,174 @@
+.screen {
+  padding: 0 0 120px;
+}
+.back {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: max(12px, env(safe-area-inset-top)) 22px 14px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.pad {
+  padding: 0 22px;
+}
+.title {
+  font-family: var(--display);
+  font-size: 34px;
+  line-height: 1.05;
+  margin: 12px 0 0;
+}
+.when {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.loc {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.desc {
+  font-family: var(--display);
+  font-size: 18.5px;
+  line-height: 1.5;
+  color: #33332c;
+  margin: 16px 0 0;
+}
+
+.sectionLabel {
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 24px 0 11px;
+}
+
+.where {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.whereName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.openMap {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+.hosts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hostRow {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+}
+.hostText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.hostName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.hostRole {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.groupCard {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.groupMine {
+  background: var(--green-soft);
+  border-color: var(--green-line);
+}
+.groupHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 11px;
+  gap: 8px;
+}
+.groupLabelWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.groupLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.groupLabelMine {
+  font-weight: 700;
+  color: var(--green-ink);
+}
+.groupVenue {
+  font-size: 11px;
+  color: var(--faint);
+}
+.groupVenueMine {
+  color: #5a6b53;
+}
+.roster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  width: 52px;
+}
+.personName {
+  font-size: 10px;
+  color: var(--ink);
+  text-align: center;
+  line-height: 1.1;
+}
+
+.everyone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.everyone .person {
+  width: 54px;
+}

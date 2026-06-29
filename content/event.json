@@ -1,0 +1,11 @@
+{
+  "title": "Cedar Lake",
+  "dateRange": "August 18 – 20, 2026",
+  "tagline": "Your directory for the retreat — the people, the schedule, and a concierge who knows the room.",
+  "venue": "The Lodge · Cedar Lake",
+  "days": [
+    { "key": "tue", "label": "Tue 18", "date": "2026-08-18" },
+    { "key": "wed", "label": "Wed 19", "date": "2026-08-19" },
+    { "key": "thu", "label": "Thu 20", "date": "2026-08-20" }
+  ]
+}

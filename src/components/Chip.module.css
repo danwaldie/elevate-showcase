@@ -1,0 +1,76 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+/* directory name chips */
+.you,
+.withYou {
+  font-size: 8.5px;
+  letter-spacing: 0.12em;
+  padding: 2px 6px;
+  border-radius: var(--radius-chip);
+}
+.you {
+  color: var(--gold-ink);
+  background: var(--gold-soft);
+}
+.withYou {
+  color: var(--green-ink);
+  background: var(--green-soft);
+  font-weight: 600;
+}
+
+/* session type chips */
+.everyone,
+.groups,
+.choose,
+.dining,
+.logistics {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--radius-chip);
+}
+.everyone {
+  color: var(--gold-ink);
+  background: var(--gold-soft);
+}
+.groups {
+  color: var(--green-ink);
+  background: var(--green-soft);
+}
+.choose {
+  color: var(--choose-ink);
+  background: var(--choose-soft);
+}
+.dining,
+.logistics {
+  color: var(--faint);
+  background: transparent;
+  padding-left: 0;
+  font-weight: 600;
+}
+
+/* "YOUR GROUP" pill on session detail */
+.yourGroup {
+  font-size: 8.5px;
+  letter-spacing: 0.12em;
+  color: var(--green-ink);
+  background: var(--green-line);
+  padding: 2px 7px;
+  border-radius: var(--radius-chip);
+}
+
+/* tiny YOU pill on map location card */
+.youSmall {
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  color: var(--green-ink);
+  background: var(--green-soft);
+  padding: 2px 6px;
+  border-radius: 5px;
+}

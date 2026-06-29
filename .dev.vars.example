@@ -1,0 +1,4 @@
+# Copy to .dev.vars (gitignored) for local `npm run pages:dev`.
+# In production set these via `wrangler pages secret put <NAME>` or the Cloudflare dashboard.
+SERVER_SECRET="dev-secret-change-me"
+ANTHROPIC_API_KEY="sk-ant-your-key"
