@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import s from './Directory.module.css'
 import { useStore } from '../state/store'
 import { useContent, usePersonalization } from '../state/hooks'
@@ -6,6 +6,14 @@ import Avatar from '../components/Avatar'
 import Chip from '../components/Chip'
 
 const LOC_BUCKETS = ['London', 'Toronto', 'New York']
+
+// Company logo with graceful fallback to the company initial if the image is missing.
+function CompanyBadge({ company, src }: { company: string; src?: string | null }) {
+  const [failedSrc, setFailedSrc] = useState<string | null>(null)
+  if (src && failedSrc !== src)
+    return <img src={src} alt={company} onError={() => setFailedSrc(src)} />
+  return <>{(company.trim()[0] ?? '').toUpperCase()}</>
+}
 
 export default function Directory() {
   const { members } = useContent()
@@ -117,11 +125,7 @@ export default function Directory() {
             <span className={s.avatarWrap}>
               <Avatar name={m.name} src={m.photo} size={56} />
               <span className={s.companyBadge} title={m.company}>
-                {m.companyLogo ? (
-                  <img src={m.companyLogo} alt={m.company} />
-                ) : (
-                  (m.company.trim()[0] ?? '').toUpperCase()
-                )}
+                <CompanyBadge company={m.company} src={m.companyLogo} />
               </span>
             </span>
             <span className={s.body}>

@@ -33,6 +33,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* Bias the 228px banner crop toward the top so the forehead/eyes are kept
+     (headshots are square with headroom; a centered crop would clip the brow). */
+  object-position: 50% 25%;
 }
 .hatch {
   position: absolute;

@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import s from './Profile.module.css'
 import { useStore, type Screen } from '../state/store'
 import { useContent, usePersonalization } from '../state/hooks'
@@ -22,8 +23,16 @@ export default function Profile() {
   const back = useStore((st) => st.backProfile)
   const openSession = useStore((st) => st.openSession)
 
+  // Fall back to the placeholder tiles if a photo/logo is missing or fails to load.
+  // Tracked by src so it resets when navigating to another member.
+  const [failedPhoto, setFailedPhoto] = useState<string | null>(null)
+  const [failedLogo, setFailedLogo] = useState<string | null>(null)
+
   const m = members.find((x) => x.id === selMember)
   if (!m) return null
+
+  const showPhoto = !!m.photo && failedPhoto !== m.photo
+  const showLogo = !!m.companyLogo && failedLogo !== m.companyLogo
 
   const myForum = forumOf(viewer)
   const sameForum = !!myForum && m.id !== viewer && myForum.memberIds.includes(m.id)
@@ -39,8 +48,13 @@ export default function Profile() {
 
       <div className={s.pad}>
         <div className={s.photo}>
-          {m.photo ? (
-            <img className={s.photoImg} src={m.photo} alt={m.name} />
+          {showPhoto ? (
+            <img
+              className={s.photoImg}
+              src={m.photo!}
+              alt={m.name}
+              onError={() => setFailedPhoto(m.photo!)}
+            />
           ) : (
             <>
               <div className={s.hatch} />
@@ -58,8 +72,13 @@ export default function Profile() {
 
         <div className={s.companyRow}>
           <span className={s.logoTile}>
-            {m.companyLogo ? (
-              <img className={s.logoImg} src={m.companyLogo} alt={m.company} />
+            {showLogo ? (
+              <img
+                className={s.logoImg}
+                src={m.companyLogo!}
+                alt={m.company}
+                onError={() => setFailedLogo(m.companyLogo!)}
+              />
             ) : (
               <>
                 <span className={s.hatch} />
@@ -68,7 +87,7 @@ export default function Profile() {
             )}
           </span>
           <span className={s.companyText}>
-            {!m.companyLogo && <span className={s.companyCap}>Company logo</span>}
+            {!showLogo && <span className={s.companyCap}>Company logo</span>}
             <span className={s.companyName}>{m.company}</span>
           </span>
         </div>

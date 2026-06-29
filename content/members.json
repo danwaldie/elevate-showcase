@@ -7,12 +7,22 @@
     "location": "Toronto, CA",
     "type": "Elevate Team",
     "bio": "Serial founder and community builder. Created Elevate to put real, in-person relationships at the centre of how leaders grow.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/prospero.jpg",
+    "companyLogo": "/logos/elevate.svg",
     "industry": "Community / SaaS",
-    "expertise": ["community", "culture", "go-to-market"],
-    "canHelp": ["building movements", "founder peer groups"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550100" }
+    "expertise": [
+      "community",
+      "culture",
+      "go-to-market"
+    ],
+    "canHelp": [
+      "building movements",
+      "founder peer groups"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550100"
+    }
   },
   {
     "id": "elizabeth-bennet",
@@ -22,12 +32,22 @@
     "location": "London, UK",
     "type": "Founding Member",
     "bio": "Building a marketplace reshaping how independent makers reach the world. A sharp judge of people and pitches, and allergic to vanity metrics.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/elizabeth-bennet.jpg",
+    "companyLogo": "/logos/longbourn.svg",
     "industry": "Consumer / Marketplace",
-    "expertise": ["marketplaces", "brand", "consumer growth"],
-    "canHelp": ["two-sided marketplaces", "founder storytelling"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550101" }
+    "expertise": [
+      "marketplaces",
+      "brand",
+      "consumer growth"
+    ],
+    "canHelp": [
+      "two-sided marketplaces",
+      "founder storytelling"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550101"
+    }
   },
   {
     "id": "jay-gatsby",
@@ -37,12 +57,22 @@
     "location": "New York, US",
     "type": "Founding Member",
     "bio": "Turned a knack for unforgettable gatherings into a fast-growing experiential hospitality brand. Believes the right room can change a life.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/jay-gatsby.jpg",
+    "companyLogo": "/logos/west-egg.svg",
     "industry": "Hospitality / Events",
-    "expertise": ["experiential", "premium brand", "hospitality"],
-    "canHelp": ["events at scale", "luxury brand building"],
-    "links": { "linkedin": "https://example.com", "whatsapp": null }
+    "expertise": [
+      "experiential",
+      "premium brand",
+      "hospitality"
+    ],
+    "canHelp": [
+      "events at scale",
+      "luxury brand building"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": null
+    }
   },
   {
     "id": "sherlock-holmes",
@@ -52,12 +82,22 @@
     "location": "London, UK",
     "type": "Founding Member",
     "bio": "Built an AI fraud-detection platform trusted by banks across Europe. Sees the signal everyone else misses.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/sherlock-holmes.jpg",
+    "companyLogo": "/logos/baker-street.svg",
     "industry": "Security / AI",
-    "expertise": ["applied AI", "fraud detection", "security"],
-    "canHelp": ["ML in production", "fraud & risk strategy"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550103" }
+    "expertise": [
+      "applied AI",
+      "fraud detection",
+      "security"
+    ],
+    "canHelp": [
+      "ML in production",
+      "fraud & risk strategy"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550103"
+    }
   },
   {
     "id": "jane-eyre",
@@ -67,12 +107,22 @@
     "location": "Manchester, UK",
     "type": "Founding Member",
     "bio": "Scaling an edtech platform that has brought tutoring to a million students. A principled operator who builds for the long term.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/jane-eyre.jpg",
+    "companyLogo": "/logos/thornfield.svg",
     "industry": "Education",
-    "expertise": ["edtech", "operations", "scaling teams"],
-    "canHelp": ["operating discipline", "mission-driven hiring"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550104" }
+    "expertise": [
+      "edtech",
+      "operations",
+      "scaling teams"
+    ],
+    "canHelp": [
+      "operating discipline",
+      "mission-driven hiring"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550104"
+    }
   },
   {
     "id": "edmond-dantes",
@@ -82,12 +132,22 @@
     "location": "Marseille, FR",
     "type": "Invited Guest",
     "bio": "Built a wealth platform for a new generation of investors after an unconventional path into finance. Patient, strategic, and very hard to surprise.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/edmond-dantes.jpg",
+    "companyLogo": "/logos/chateau-capital.svg",
     "industry": "Fintech",
-    "expertise": ["fintech", "wealth", "long-term strategy"],
-    "canHelp": ["fundraising strategy", "playing the long game"],
-    "links": { "linkedin": "https://example.com", "whatsapp": null }
+    "expertise": [
+      "fintech",
+      "wealth",
+      "long-term strategy"
+    ],
+    "canHelp": [
+      "fundraising strategy",
+      "playing the long game"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": null
+    }
   },
   {
     "id": "phileas-fogg",
@@ -97,12 +157,22 @@
     "location": "London, UK",
     "type": "Invited Guest",
     "bio": "Founder of a logistics company obsessed with precision and speed — never a day late. Operates like clockwork across 80+ markets.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/phileas-fogg.jpg",
+    "companyLogo": "/logos/reform.svg",
     "industry": "Logistics / Travel",
-    "expertise": ["global logistics", "operations", "expansion"],
-    "canHelp": ["international expansion", "operational rigor"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550106" }
+    "expertise": [
+      "global logistics",
+      "operations",
+      "expansion"
+    ],
+    "canHelp": [
+      "international expansion",
+      "operational rigor"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550106"
+    }
   },
   {
     "id": "mina-harker",
@@ -112,12 +182,22 @@
     "location": "London, UK",
     "type": "Founding Member",
     "bio": "Founder of a preventive-health platform applying data to longevity. A relentless researcher who keeps meticulous notes on everything.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/mina-harker.jpg",
+    "companyLogo": "/logos/harker-health.svg",
     "industry": "HealthTech",
-    "expertise": ["healthtech", "longevity", "data"],
-    "canHelp": ["regulated markets", "clinical partnerships"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550107" }
+    "expertise": [
+      "healthtech",
+      "longevity",
+      "data"
+    ],
+    "canHelp": [
+      "regulated markets",
+      "clinical partnerships"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550107"
+    }
   },
   {
     "id": "becky-sharp",
@@ -127,12 +207,22 @@
     "location": "London, UK",
     "type": "Founding Member",
     "bio": "Built a social-commerce juggernaut from nothing through sheer wit and hustle. The best networker in any room — and she knows it.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/becky-sharp.jpg",
+    "companyLogo": "/logos/vanity.svg",
     "industry": "Consumer / Social",
-    "expertise": ["growth", "social commerce", "dealmaking"],
-    "canHelp": ["viral growth", "negotiation & intros"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550108" }
+    "expertise": [
+      "growth",
+      "social commerce",
+      "dealmaking"
+    ],
+    "canHelp": [
+      "viral growth",
+      "negotiation & intros"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550108"
+    }
   },
   {
     "id": "captain-nemo",
@@ -142,12 +232,22 @@
     "location": "Lisbon, PT",
     "type": "Founding Member",
     "bio": "Building autonomous underwater systems for ocean-carbon and offshore energy. Fiercely independent; happiest far from shore.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/captain-nemo.jpg",
+    "companyLogo": "/logos/nautilus.svg",
     "industry": "Climate / Deep Tech",
-    "expertise": ["deep tech", "hardware", "climate"],
-    "canHelp": ["hard-tech R&D", "long build cycles"],
-    "links": { "linkedin": "https://example.com", "whatsapp": null }
+    "expertise": [
+      "deep tech",
+      "hardware",
+      "climate"
+    ],
+    "canHelp": [
+      "hard-tech R&D",
+      "long build cycles"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": null
+    }
   },
   {
     "id": "dorothea-brooke",
@@ -157,12 +257,22 @@
     "location": "Oxford, UK",
     "type": "Invited Guest",
     "bio": "Runs a foundation channeling capital into unglamorous, high-impact causes. Believes in the good done by quietly unhistoric acts.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/dorothea-brooke.jpg",
+    "companyLogo": "/logos/middlemarch.svg",
     "industry": "Impact / Philanthropy",
-    "expertise": ["impact", "philanthropy", "governance"],
-    "canHelp": ["impact strategy", "board building"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550110" }
+    "expertise": [
+      "impact",
+      "philanthropy",
+      "governance"
+    ],
+    "canHelp": [
+      "impact strategy",
+      "board building"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550110"
+    }
   },
   {
     "id": "ebenezer-scrooge",
@@ -172,12 +282,22 @@
     "location": "London, UK",
     "type": "Invited Guest",
     "bio": "Veteran growth investor — once famously frugal, now famously generous with both time and capital. Will tell you the truth about your numbers.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/ebenezer-scrooge.jpg",
+    "companyLogo": "/logos/marley-co.svg",
     "industry": "Growth Equity",
-    "expertise": ["growth capital", "unit economics", "turnarounds"],
-    "canHelp": ["fundraising", "financial discipline"],
-    "links": { "linkedin": "https://example.com", "whatsapp": null }
+    "expertise": [
+      "growth capital",
+      "unit economics",
+      "turnarounds"
+    ],
+    "canHelp": [
+      "fundraising",
+      "financial discipline"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": null
+    }
   },
   {
     "id": "allan-quatermain",
@@ -187,12 +307,22 @@
     "location": "Cape Town, ZA",
     "type": "Invited Guest",
     "bio": "Founder of a critical-minerals exploration company using AI to map what's underground. Spends more time in the field than the boardroom.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/allan-quatermain.jpg",
+    "companyLogo": "/logos/solomon.svg",
     "industry": "Mining / Hardware",
-    "expertise": ["hardware", "critical minerals", "frontier markets"],
-    "canHelp": ["operating in tough markets", "field operations"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550112" }
+    "expertise": [
+      "hardware",
+      "critical minerals",
+      "frontier markets"
+    ],
+    "canHelp": [
+      "operating in tough markets",
+      "field operations"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550112"
+    }
   },
   {
     "id": "natasha-rostova",
@@ -202,12 +332,22 @@
     "location": "Paris, FR",
     "type": "Founding Member",
     "bio": "Built a creative studio behind some of the most talked-about brand launches in Europe. Brings warmth and energy to every room.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/natasha-rostova.jpg",
+    "companyLogo": "/logos/rostova.svg",
     "industry": "Media / Brand",
-    "expertise": ["brand", "creative", "storytelling"],
-    "canHelp": ["brand launches", "creative direction"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550113" }
+    "expertise": [
+      "brand",
+      "creative",
+      "storytelling"
+    ],
+    "canHelp": [
+      "brand launches",
+      "creative direction"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550113"
+    }
   },
   {
     "id": "heathcliff",
@@ -217,12 +357,22 @@
     "location": "Leeds, UK",
     "type": "Invited Guest",
     "bio": "Self-made founder of a renewable-energy developer powering the north. Intense, driven, and unafraid of a hard road.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/heathcliff.jpg",
+    "companyLogo": "/logos/wuthering.svg",
     "industry": "Energy",
-    "expertise": ["energy", "infrastructure", "project finance"],
-    "canHelp": ["infrastructure deals", "building from nothing"],
-    "links": { "linkedin": "https://example.com", "whatsapp": null }
+    "expertise": [
+      "energy",
+      "infrastructure",
+      "project finance"
+    ],
+    "canHelp": [
+      "infrastructure deals",
+      "building from nothing"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": null
+    }
   },
   {
     "id": "hester-prynne",
@@ -232,12 +382,22 @@
     "location": "Boston, US",
     "type": "Founding Member",
     "bio": "Founder of a digital-identity company helping people own their reputation online. Turned a hard chapter into a mission.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/hester-prynne.jpg",
+    "companyLogo": "/logos/scarlet.svg",
     "industry": "Privacy / Identity",
-    "expertise": ["privacy", "digital identity", "trust & safety"],
-    "canHelp": ["trust & safety", "brand resilience"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550115" }
+    "expertise": [
+      "privacy",
+      "digital identity",
+      "trust & safety"
+    ],
+    "canHelp": [
+      "trust & safety",
+      "brand resilience"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550115"
+    }
   },
   {
     "id": "marianne-dashwood",
@@ -247,11 +407,21 @@
     "location": "Bath, UK",
     "type": "Invited Guest",
     "bio": "Founder of a design studio crafting products people fall for. Leads with feeling, refined by discipline.",
-    "photo": null,
-    "companyLogo": null,
+    "photo": "/photos/marianne-dashwood.jpg",
+    "companyLogo": "/logos/dashwood.svg",
     "industry": "Design / Consumer",
-    "expertise": ["product design", "brand", "consumer"],
-    "canHelp": ["design-led product", "early brand"],
-    "links": { "linkedin": "https://example.com", "whatsapp": "https://wa.me/15555550116" }
+    "expertise": [
+      "product design",
+      "brand",
+      "consumer"
+    ],
+    "canHelp": [
+      "design-led product",
+      "early brand"
+    ],
+    "links": {
+      "linkedin": "https://example.com",
+      "whatsapp": "https://wa.me/15555550116"
+    }
   }
 ]
