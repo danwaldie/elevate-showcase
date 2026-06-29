@@ -44,7 +44,19 @@ export default function Sidebar() {
 
       {me && (
         <div className={s.signed}>
-          <span className={s.avatar}>{initials(me.name)}</span>
+          <span className={s.avatar}>
+            {me.photo && (
+              <img
+                className={s.avatarImg}
+                src={me.photo}
+                alt=""
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none'
+                }}
+              />
+            )}
+            {initials(me.name)}
+          </span>
           <span className={s.signedText}>
             <span className={s.signedLabel}>Signed in</span>
             <span className={s.signedName}>{me.name}</span>

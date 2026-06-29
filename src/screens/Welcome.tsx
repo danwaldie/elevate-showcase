@@ -26,7 +26,19 @@ export default function Welcome() {
       <div className={s.bottom}>
         {me && (
           <div className={s.signedIn}>
-            <span className={s.avatar}>{initials(me.name)}</span>
+            <span className={s.avatar}>
+              {me.photo && (
+                <img
+                  className={s.avatarImg}
+                  src={me.photo}
+                  alt=""
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none'
+                  }}
+                />
+              )}
+              {initials(me.name)}
+            </span>
             <span className={s.signedInText}>
               <span className={s.signedInLabel}>Signed in as</span>
               <span className={s.signedInName}>{me.name}</span>

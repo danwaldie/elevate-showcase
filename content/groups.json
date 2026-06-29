@@ -1,23 +1,23 @@
 {
   "forum": [
-    { "label": "Group A", "venue": "The Lodge", "locKey": "lodge", "memberIds": ["prospero", "elizabeth-bennet", "sherlock-holmes"] },
+    { "label": "Group A", "venue": "The Lodge", "locKey": "lodge", "memberIds": ["prospero", "elizabeth-bennet", "sherlock-holmes", "marianne-dashwood"] },
     { "label": "Group B", "venue": "North Cottage", "locKey": "north-cottage", "memberIds": ["jay-gatsby", "edmond-dantes", "becky-sharp", "phileas-fogg", "mina-harker"] },
-    { "label": "Group C", "venue": "Lakeside Cottage", "locKey": "lakeside-cottage", "memberIds": ["jane-eyre", "dorothea-brooke", "ebenezer-scrooge"] },
+    { "label": "Group C", "venue": "Lakeside Cottage", "locKey": "lakeside-cottage", "memberIds": ["jane-eyre", "dorothea-brooke", "ebenezer-scrooge", "hester-prynne"] },
     { "label": "Group D", "venue": "Pine Cottage", "locKey": "pine-cottage", "memberIds": ["captain-nemo", "heathcliff", "allan-quatermain", "natasha-rostova"] }
   ],
   "dinners": [
-    { "label": "Becky Sharp × Edmond Dantès", "venue": "Private dinner", "locKey": "", "memberIds": [] },
-    { "label": "Natasha Rostova × Jay Gatsby", "venue": "Private dinner", "locKey": "", "memberIds": [] },
-    { "label": "Longevity, with Mina Harker", "venue": "Private dinner", "locKey": "", "memberIds": [] }
+    { "label": "Becky Sharp × Edmond Dantès", "venue": "The Cabin", "locKey": "cabin", "memberIds": ["becky-sharp", "edmond-dantes", "prospero", "jane-eyre", "allan-quatermain", "marianne-dashwood"] },
+    { "label": "Natasha Rostova × Jay Gatsby", "venue": "Lakeside Boathouse", "locKey": "lakeside-boathouse", "memberIds": ["natasha-rostova", "jay-gatsby", "elizabeth-bennet", "sherlock-holmes", "captain-nemo", "heathcliff"] },
+    { "label": "Longevity, with Mina Harker", "venue": "Club House", "locKey": "club-house", "memberIds": ["mina-harker", "phileas-fogg", "dorothea-brooke", "ebenezer-scrooge", "hester-prynne"] }
   ],
   "workshops": [
-    { "label": "Life Planning — Dorothea Brooke", "venue": "Location TBC", "locKey": "", "memberIds": [] },
-    { "label": "Claude 101 — Sherlock Holmes", "venue": "Location TBC", "locKey": "", "memberIds": [] },
-    { "label": "Sales Excellence — Becky Sharp", "venue": "Location TBC", "locKey": "", "memberIds": [] }
+    { "label": "Life Planning — Dorothea Brooke", "venue": "Studio Loft / Gym", "locKey": "studio-gym", "memberIds": ["dorothea-brooke", "prospero", "jane-eyre", "phileas-fogg", "hester-prynne", "marianne-dashwood"] },
+    { "label": "Claude 101 — Sherlock Holmes", "venue": "The Lodge", "locKey": "lodge", "memberIds": ["sherlock-holmes", "captain-nemo", "mina-harker", "edmond-dantes", "allan-quatermain", "natasha-rostova"] },
+    { "label": "Sales Excellence — Becky Sharp", "venue": "Log Cabin", "locKey": "log-cabin", "memberIds": ["becky-sharp", "jay-gatsby", "elizabeth-bennet", "heathcliff", "ebenezer-scrooge"] }
   ],
   "experiences": [
-    { "label": "Boat Rides", "venue": "Main Boathouse", "locKey": "main-boathouse", "memberIds": [] },
-    { "label": "Padel", "venue": "Sport Courts", "locKey": "sport-courts", "memberIds": [] },
-    { "label": "Volleyball", "venue": "Sport Courts", "locKey": "sport-courts", "memberIds": [] }
+    { "label": "Boat Rides", "venue": "Main Boathouse", "locKey": "main-boathouse", "memberIds": ["prospero", "edmond-dantes", "captain-nemo", "mina-harker", "dorothea-brooke", "allan-quatermain"] },
+    { "label": "Padel", "venue": "Sport Courts", "locKey": "sport-courts", "memberIds": ["jay-gatsby", "sherlock-holmes", "becky-sharp", "heathcliff", "phileas-fogg", "marianne-dashwood"] },
+    { "label": "Volleyball", "venue": "Sport Courts", "locKey": "sport-courts", "memberIds": ["elizabeth-bennet", "jane-eyre", "natasha-rostova", "ebenezer-scrooge", "hester-prynne"] }
   ]
 }
