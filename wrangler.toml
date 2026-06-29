@@ -2,17 +2,17 @@ name = "elevate-showcase"
 main = "worker/index.ts"
 compatibility_date = "2024-11-01"
 compatibility_flags = ["nodejs_compat"]
+account_id = "c899831ce29bf9df4f95a0bb38f5e744"
 
 [assets]
 directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
 
-# Public showcase demo deploys to the default *.workers.dev hostname.
-# To pin a custom demo subdomain, uncomment and set the pattern, then redeploy:
-# [[routes]]
-# pattern = "elevate-demo.example.com"
-# custom_domain = true
+# Custom domain — wrangler provisions the hostname, DNS, and cert on deploy.
+[[routes]]
+pattern = "elevate-demo.danwaldie.com"
+custom_domain = true
 
 # Secrets (set via `wrangler secret put <NAME>`; .dev.vars for local `wrangler dev`):
 #   SERVER_SECRET     — HMAC key for personal-link codes + session tokens
